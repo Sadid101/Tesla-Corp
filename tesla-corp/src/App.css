@@ -28,10 +28,53 @@
   color: #61dafb;
 }
 
+.text-heavy {
+  font-weight: 600;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-light {
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+}
+
+.rounded-7 {
+  border-radius: 7px;
+}
+
+.primary-text {
+  font-size: 17px;
+}
+
+.secondary-text {
+  font-size: 14px;
+}
+
+.secondary-color{
+  color: #828282;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.Toastify{
+  font-family: Inter;
+  font-size: 13px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
