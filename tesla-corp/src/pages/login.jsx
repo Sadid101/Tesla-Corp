@@ -27,11 +27,11 @@ function Login() {
             });
 
             const data = await response.json();
-
             if (data.token) {
                 setTimeout(() => {
                     window.location.href = ("/dashboard")
                 }, 1000)
+                localStorage.setItem('token', data.token)
                 toast.success("Login successful. Redirecting to dashboard!");
 
             }
@@ -87,7 +87,7 @@ function Login() {
                     <span>Privacy Policy</span>
                 </div>
             </div >
-            <ToastContainer />
+            <ToastContainer position="top-center" />
         </>
     )
 }

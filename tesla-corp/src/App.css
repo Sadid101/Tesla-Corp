@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.text-extraheavy {
+  font-weight: 600;
 }
 
 .text-heavy {
